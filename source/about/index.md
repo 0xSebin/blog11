@@ -22,9 +22,12 @@ excerpt: 我是來自陽明交大應數系大一的王博靚，目前主要的�
     <section class="archive-item">
       <div class="archive-item-header">
         <span class="archive-year">2023</span> 
-        <span class="archive-year-post-count">[4]</span>
+        <span class="archive-year-post-count">[5]</span>
       </div>
       <ul class="article-list">
+        <li class="article-item" date-is="07-30">
+            <a href="images/ais3-2023-best-project.jpeg"><span class="article-title">AIS3 2023 最佳專題</span></a>
+        </li>
         <li class="article-item" date-is="04-10">
             <a href="https://github.com/Ching367436/My-CTF-Challenges#ais3-pre-exam"><span class="article-title">AIS3 Pre-exam 2023 出題者</span></a>
         </li>
