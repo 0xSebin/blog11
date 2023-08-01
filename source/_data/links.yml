@@ -20,7 +20,14 @@
       link: https://howard11912.github.io/
       description: 一起擔任過一中電研幹部，現在在清大電機
       avatar: /friends/images/howard11912.png
+- links_category: From Web
+  has_thumbnail: false
+  list: 
     - name: EvanNotFound’s Blog
       link: https://ohevan.com
       description: 提供 hexo-theme-redefine 的好心人士
       avatar: /friends/images/ohevan.png
+    - name: 1chooo's Blog
+      link: https://1chooo.github.io/1chooo-blog/
+      description: 大氣科學學系的人
+      avatar: /friends/images/1chooo.png
