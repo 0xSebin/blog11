@@ -19,7 +19,7 @@ timezone: 'ROC'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ching367436.github.io/
+url: https://blog.ching367436.me/
 permalink: :post_title/
 permalink_defaults:
 pretty_urls:
