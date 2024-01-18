@@ -415,7 +415,7 @@ if __name__ == "__main__":
 
 需要關注 `powmod` 部分, 觀察到 trace 裡面有哪些地方沒有執行到 `chall.py(9)` 可以推測出 `b` 的目前 lsb 是否為 1. 所以可以還原所有有進到 `powmod` 指數部分的數, 包含 `e, d`.
 
-底下是在執行 `powmod` 時的部分 trace, 上半部分沒有執行到 `chall.py(9)`, 所以 $b\&1==0$, 下半部則是相反, 所以那兩個時候的 $b$ 的 lsb 分別是 0, 1, 就還原出兩個 bits 了.
+底下是在執行 `powmod` 時的部分 trace, 上半部分沒有執行到 `chall.py(9)`, 所以 `b&1==0`, 下半部則是相反, 所以那兩個時候的 $b$ 的 lsb 分別是 0, 1, 就還原出兩個 bits 了.
 
 ```
 chall.py(7):     while b > 0:
@@ -891,7 +891,7 @@ AIS3{CHIP1_Ch1p1_cHap@_cHaP@_DUBi_DUbi_da8a_d4B@}
 
 進來看到題目是對 `Block` 進行一連串的操作之後把結果放到 `writeFile` 裏面，跟進裏面看看。
 
-![flag generator](/ais3-eof-2024-write-up/flag-generator)
+![flag generator](/ais3-eof-2024-write-up/flag-generator.png)
 
 發現 `writeFile` 根本沒有寫檔，來動態執行把 `Block` 拉出來看看，先下一個斷點在這裏。
 
@@ -911,13 +911,13 @@ AIS3{CHIP1_Ch1p1_cHap@_cHaP@_DUBi_DUbi_da8a_d4B@}
 
 進來看到是一個經典的 flag checker，將使用者的輸入經過 `state_machine` 之後與 `k_target` 進行比較是否一致，如果一致就會說是 correct。跟進 `state_machine` 看看。
 
-![stateful](/ais3-eof-2024-write-up/stateful)
+![stateful](/ais3-eof-2024-write-up/stateful.png)
 
 #### `state_machine`
 
 進來看到是一個 state machine，跟進 `state_4260333374` 看看。
 
-![state machine](/ais3-eof-2024-write-up/state-machine)
+![state machine](/ais3-eof-2024-write-up/state-machine.png)
 
 ####  `state_4260333374` 
 
