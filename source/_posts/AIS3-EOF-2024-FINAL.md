@@ -155,6 +155,8 @@ root@c603fff492a6 /home# checksec auth
 
 感覺我一開始就跳進這題分數會多很多.
 
+這題推別隊寫的[這篇](https://hackmd.io/@TWNWAKing/HJK40Xpca) write-up.
+
 ## hahamut [A&D]
 
 這題我基本上只有參與輔助的部分, 題目我沒看. 主要就是自動抓流量來到 Arkime 上看, attack manager 部分由 Wilson 負責, ywc 負責拆 patch. 沒想到過了整個上午我們這隊有洞可以打, 但沒人攻擊 QQ. 直到我午後臨時進入, 從封包抄走別隊的攻擊才開始有攻擊分, 我們隊基本上只有被打穿兩種洞.
