@@ -66,7 +66,7 @@ unserialize(PAYLOAD);
 
 #### 各種縮短 POP Chain 的手法
 
-第一種就是直接找其他更短的 chain, 但時間成本較高. 我在 `fluentpdo` 被搶走後才用的是: 在生 chain 的過程把所有 `private` `protected` 的部分改成 `public`, 這樣可以少一些 `\x00`  如下:
+第一種就是直接找其他更短的 chain, 但時間成本較高. 我在 `fluentpdo` 被搶走後採用的是: 在生 chain 的過程把所有 `private` `protected` 的部分改成 `public`, 這樣可以少一些 `\x00`  如下:
 
 ![](/ais3-eof-2024-final/poper-public.png)
 
