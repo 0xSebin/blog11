@@ -13,8 +13,6 @@ photos:
   - /ais3-eof-2024-write-up/CHIP1_Ch1p1_cHap@_cHaP@_DUBi_DUbi_da8a_d4B@.jpeg
 ---
 
-# AIS3 EOF 2024 Write-up
-
 這次在 EOF 解了 8 題, 感覺至少賽中至少還能多解個 3 題以上.
 
 ![scoreboard](/ais3-eof-2024-write-up/scoreboard.jpeg)
