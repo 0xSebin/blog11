@@ -107,6 +107,8 @@ b'O:34:"Predis\\Connection\\StreamConnection":1:{s:10:"parameters";O:28:"Predis\
 
 這題是我跟其他隊交流最多的一題 (有打這題的隊伍比例只有 50%), 能感受到正在跟真人互動, 賽後也跟對上的人聊的很開心.
 
+補個 splitline 在賽中說其實也可用的 chain 的 [write-up](https://hackmd.io/@Ching367436/r1w_xLFdo#%E4%BB%BB%E6%84%8F-require--phpinfo-to-RCE), 是去年 edu-ctf 的但沒有官方解答.
+
 ## Pwn2Own
 
 題目是一個 樹莓派, 上面有 firmware, 是個計分板的 app.
