@@ -112,7 +112,7 @@ excerpt: 我是來自陽明交大應數系大一的王博靚，目前主要的�
             <a href="/friends"><span class="article-title mb-0.5 text-2xl">朋友們的網站</span></a>
         </li>
         <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is="reversi">
-            <a href="https://ching367436.github.io/reversi"><span class="article-title mb-0.5 text-2xl">黑白棋 AI</span></a>
+            <a href="https://ching367436.github.io/reversi/"><span class="article-title mb-0.5 text-2xl">黑白棋 AI</span></a>
         </li>
       </ul>
     </section>
