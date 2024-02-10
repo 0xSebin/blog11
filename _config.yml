@@ -112,7 +112,7 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Ching367436/ching367436.github.io
+  repo: https://github.com/Ching367436/blog
   branch: gh-pages
 
 all_minifier: true
