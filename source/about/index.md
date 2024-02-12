@@ -47,7 +47,7 @@ excerpt: 我是來自陽明交大應數系大一的王博靚，目前主要的�
             <a href=""><span class="article-title mb-0.5 text-2xl">AIS3 EOF 決賽第 13 名</span></a>
         </li>
         <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is="01-16">
-            <a href=""><span class="article-title mb-0.5 text-2xl">陽明交大 程式安全 A+</span></a>
+            <a href="../edu-ctf-2022-write-up/"><span class="article-title mb-0.5 text-2xl">陽明交大 程式安全 A+</span></a>
         </li>
       </ul>
     </section>
